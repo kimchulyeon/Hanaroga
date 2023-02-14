@@ -7,25 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		673672F7CA294555BD169B92 /* Pods_Hanaroga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB691B538C01BD12D3EB606D /* Pods_Hanaroga.framework */; };
 		6E7C938A299B6BF500950DC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7C9389299B6BF500950DC4 /* AppDelegate.swift */; };
 		6E7C938C299B6BF500950DC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7C938B299B6BF500950DC4 /* SceneDelegate.swift */; };
-		6E7C938E299B6BF500950DC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7C938D299B6BF500950DC4 /* ViewController.swift */; };
 		6E7C9391299B6BF500950DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C938F299B6BF500950DC4 /* Main.storyboard */; };
 		6E7C9394299B6BF500950DC4 /* Hanaroga.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E7C9392299B6BF500950DC4 /* Hanaroga.xcdatamodeld */; };
 		6E7C9396299B6BF700950DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C9395299B6BF700950DC4 /* Assets.xcassets */; };
 		6E7C9399299B6BF700950DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C9397299B6BF700950DC4 /* LaunchScreen.storyboard */; };
+		6E7C93A5299B6C8C00950DC4 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7C93A4299B6C8C00950DC4 /* LoginVC.swift */; };
+		6E7C93AE299B70CD00950DC4 /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C93A8299B70CD00950DC4 /* OpenSans-Medium.ttf */; };
+		6E7C93AF299B70CD00950DC4 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C93A9299B70CD00950DC4 /* OpenSans-Light.ttf */; };
+		6E7C93B0299B70CD00950DC4 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C93AA299B70CD00950DC4 /* OpenSans-SemiBold.ttf */; };
+		6E7C93B1299B70CD00950DC4 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C93AB299B70CD00950DC4 /* OpenSans-Bold.ttf */; };
+		6E7C93B2299B70CD00950DC4 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C93AC299B70CD00950DC4 /* OpenSans-ExtraBold.ttf */; };
+		6E7C93B3299B70CD00950DC4 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C93AD299B70CD00950DC4 /* OpenSans-Regular.ttf */; };
+		6E7C93B7299B710900950DC4 /* GmarketSansTTFMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C93B4299B710900950DC4 /* GmarketSansTTFMedium.ttf */; };
+		6E7C93B8299B710900950DC4 /* GmarketSansTTFLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C93B5299B710900950DC4 /* GmarketSansTTFLight.ttf */; };
+		6E7C93B9299B710900950DC4 /* GmarketSansTTFBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C93B6299B710900950DC4 /* GmarketSansTTFBold.ttf */; };
+		6E7C93BB299B71A400950DC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E7C93BA299B71A400950DC4 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68C42DCC72D725CA850635A8 /* Pods-Hanaroga.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hanaroga.release.xcconfig"; path = "Target Support Files/Pods-Hanaroga/Pods-Hanaroga.release.xcconfig"; sourceTree = "<group>"; };
 		6E7C9386299B6BF500950DC4 /* Hanaroga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hanaroga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7C9389299B6BF500950DC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E7C938B299B6BF500950DC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6E7C938D299B6BF500950DC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6E7C9390299B6BF500950DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E7C9393299B6BF500950DC4 /* Hanaroga.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hanaroga.xcdatamodel; sourceTree = "<group>"; };
 		6E7C9395299B6BF700950DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E7C9398299B6BF700950DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E7C939A299B6BF700950DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E7C93A0299B6C0600950DC4 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6E7C93A4299B6C8C00950DC4 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		6E7C93A8299B70CD00950DC4 /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Medium.ttf"; sourceTree = "<group>"; };
+		6E7C93A9299B70CD00950DC4 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		6E7C93AA299B70CD00950DC4 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		6E7C93AB299B70CD00950DC4 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		6E7C93AC299B70CD00950DC4 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6E7C93AD299B70CD00950DC4 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		6E7C93B4299B710900950DC4 /* GmarketSansTTFMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansTTFMedium.ttf; sourceTree = "<group>"; };
+		6E7C93B5299B710900950DC4 /* GmarketSansTTFLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansTTFLight.ttf; sourceTree = "<group>"; };
+		6E7C93B6299B710900950DC4 /* GmarketSansTTFBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GmarketSansTTFBold.ttf; sourceTree = "<group>"; };
+		6E7C93BA299B71A400950DC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		72766AB9ABB18F1197177E59 /* Pods-Hanaroga.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hanaroga.debug.xcconfig"; path = "Target Support Files/Pods-Hanaroga/Pods-Hanaroga.debug.xcconfig"; sourceTree = "<group>"; };
+		FB691B538C01BD12D3EB606D /* Pods_Hanaroga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hanaroga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +58,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				673672F7CA294555BD169B92 /* Pods_Hanaroga.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		580A8C393B471F0D1EC76683 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB691B538C01BD12D3EB606D /* Pods_Hanaroga.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6E7C937D299B6BF500950DC4 = {
 			isa = PBXGroup;
 			children = (
 				6E7C9388299B6BF500950DC4 /* Hanaroga */,
 				6E7C9387299B6BF500950DC4 /* Products */,
+				E04497BE900521A56057A2E8 /* Pods */,
+				580A8C393B471F0D1EC76683 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +94,76 @@
 		6E7C9388299B6BF500950DC4 /* Hanaroga */ = {
 			isa = PBXGroup;
 			children = (
+				6E7C93A6299B709C00950DC4 /* Util */,
+				6E7C93A3299B6C7000950DC4 /* Controller */,
+				6E7C93A2299B6C6C00950DC4 /* View */,
+				6E7C93A1299B6C6800950DC4 /* Model */,
 				6E7C9389299B6BF500950DC4 /* AppDelegate.swift */,
 				6E7C938B299B6BF500950DC4 /* SceneDelegate.swift */,
-				6E7C938D299B6BF500950DC4 /* ViewController.swift */,
 				6E7C938F299B6BF500950DC4 /* Main.storyboard */,
 				6E7C9395299B6BF700950DC4 /* Assets.xcassets */,
 				6E7C9397299B6BF700950DC4 /* LaunchScreen.storyboard */,
 				6E7C939A299B6BF700950DC4 /* Info.plist */,
+				6E7C93BA299B71A400950DC4 /* GoogleService-Info.plist */,
 				6E7C9392299B6BF500950DC4 /* Hanaroga.xcdatamodeld */,
+				6E7C93A0299B6C0600950DC4 /* MyPlayground.playground */,
 			);
 			path = Hanaroga;
+			sourceTree = "<group>";
+		};
+		6E7C93A1299B6C6800950DC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E7C93A2299B6C6C00950DC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E7C93A3299B6C7000950DC4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6E7C93A4299B6C8C00950DC4 /* LoginVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6E7C93A6299B709C00950DC4 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				6E7C93A7299B70A300950DC4 /* Font */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		6E7C93A7299B70A300950DC4 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				6E7C93AB299B70CD00950DC4 /* OpenSans-Bold.ttf */,
+				6E7C93AC299B70CD00950DC4 /* OpenSans-ExtraBold.ttf */,
+				6E7C93A9299B70CD00950DC4 /* OpenSans-Light.ttf */,
+				6E7C93A8299B70CD00950DC4 /* OpenSans-Medium.ttf */,
+				6E7C93AD299B70CD00950DC4 /* OpenSans-Regular.ttf */,
+				6E7C93AA299B70CD00950DC4 /* OpenSans-SemiBold.ttf */,
+				6E7C93B6299B710900950DC4 /* GmarketSansTTFBold.ttf */,
+				6E7C93B5299B710900950DC4 /* GmarketSansTTFLight.ttf */,
+				6E7C93B4299B710900950DC4 /* GmarketSansTTFMedium.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		E04497BE900521A56057A2E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72766AB9ABB18F1197177E59 /* Pods-Hanaroga.debug.xcconfig */,
+				68C42DCC72D725CA850635A8 /* Pods-Hanaroga.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E7C939D299B6BF700950DC4 /* Build configuration list for PBXNativeTarget "Hanaroga" */;
 			buildPhases = (
+				648EC5E6820B5ACD5076D6D6 /* [CP] Check Pods Manifest.lock */,
 				6E7C9382299B6BF500950DC4 /* Sources */,
 				6E7C9383299B6BF500950DC4 /* Frameworks */,
 				6E7C9384299B6BF500950DC4 /* Resources */,
+				F01937184E4047CF6D74581D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,21 +226,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7C93AE299B70CD00950DC4 /* OpenSans-Medium.ttf in Resources */,
+				6E7C93B1299B70CD00950DC4 /* OpenSans-Bold.ttf in Resources */,
 				6E7C9399299B6BF700950DC4 /* LaunchScreen.storyboard in Resources */,
+				6E7C93B2299B70CD00950DC4 /* OpenSans-ExtraBold.ttf in Resources */,
 				6E7C9396299B6BF700950DC4 /* Assets.xcassets in Resources */,
+				6E7C93B9299B710900950DC4 /* GmarketSansTTFBold.ttf in Resources */,
+				6E7C93AF299B70CD00950DC4 /* OpenSans-Light.ttf in Resources */,
+				6E7C93B0299B70CD00950DC4 /* OpenSans-SemiBold.ttf in Resources */,
+				6E7C93B3299B70CD00950DC4 /* OpenSans-Regular.ttf in Resources */,
+				6E7C93B8299B710900950DC4 /* GmarketSansTTFLight.ttf in Resources */,
 				6E7C9391299B6BF500950DC4 /* Main.storyboard in Resources */,
+				6E7C93BB299B71A400950DC4 /* GoogleService-Info.plist in Resources */,
+				6E7C93B7299B710900950DC4 /* GmarketSansTTFMedium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		648EC5E6820B5ACD5076D6D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hanaroga-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F01937184E4047CF6D74581D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hanaroga/Pods-Hanaroga-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hanaroga/Pods-Hanaroga-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hanaroga/Pods-Hanaroga-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6E7C9382299B6BF500950DC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E7C938E299B6BF500950DC4 /* ViewController.swift in Sources */,
 				6E7C938A299B6BF500950DC4 /* AppDelegate.swift in Sources */,
+				6E7C93A5299B6C8C00950DC4 /* LoginVC.swift in Sources */,
 				6E7C9394299B6BF500950DC4 /* Hanaroga.xcdatamodeld in Sources */,
 				6E7C938C299B6BF500950DC4 /* SceneDelegate.swift in Sources */,
 			);
@@ -286,6 +436,7 @@
 		};
 		6E7C939E299B6BF700950DC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72766AB9ABB18F1197177E59 /* Pods-Hanaroga.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,8 +448,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,14 +458,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chul.Hanaroga;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		6E7C939F299B6BF700950DC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68C42DCC72D725CA850635A8 /* Pods-Hanaroga.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,8 +481,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,9 +491,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chul.Hanaroga;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
